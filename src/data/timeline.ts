@@ -10,12 +10,12 @@ export const timeline = [
     year: "2023",
     title: "Counselling Service Team",
     description:
-      "Mentored students and contributed to peer-support initiatives.",
+      "Contributed towards student mentoring and counselling activities.",
   },
 
   {
     year: "2024",
-    title: "Systems Projects",
+    title: "Systems & Architecture",
     description:
       "Worked on RISC-V MiniCPU Engine and Cache Prefetching Schemes.",
   },
@@ -24,13 +24,13 @@ export const timeline = [
     year: "2025",
     title: "Leadership & NLP",
     description:
-      "Chief Coordinator of Pravaah and developed RoBERTa-based sentiment analysis system.",
+      "Chief Coordinator of Pravaah and developed RoBERTa-based sentiment analysis systems.",
   },
 
   {
     year: "2026",
-    title: "Research & Internship",
+    title: "Research & Industry",
     description:
-      "Driving Assistant for Unstructured Environments and Operations Analyst Internship.",
+      "Driving Assistant Research and Operations Analyst Internship.",
   },
 ];
