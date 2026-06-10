@@ -10,7 +10,7 @@ export default function Hero() {
 
           <div>
 
-            <p className="text-zinc-500 text-lg mb-4">
+            <p className="text-zinc-400 text-lg mb-4">
               {personal.role}
             </p>
 
@@ -18,11 +18,11 @@ export default function Hero() {
               {personal.name}
             </h1>
 
-            <p className="text-2xl text-zinc-400 mb-6">
+            <p className="text-2xl text-zinc-300 mb-6">
               {personal.tagline}
             </p>
 
-            <p className="text-lg text-zinc-500 leading-relaxed max-w-xl mb-10">
+            <p className="text-lg text-zinc-400 leading-relaxed max-w-xl mb-10">
               {personal.shortBio}
             </p>
 
@@ -31,7 +31,7 @@ export default function Hero() {
               <a
                 href="/resumes/aravind-sde.pdf"
                 target="_blank"
-                className="px-6 py-3 rounded-xl bg-black text-white"
+                className="px-6 py-3 rounded-xl border border-zinc-700 bg-zinc-900 hover:bg-blue-600 hover:border-blue-600 hover:scale-105 transition-all duration-300"
               >
                 SDE Resume
               </a>
@@ -39,7 +39,7 @@ export default function Hero() {
               <a
                 href="/resumes/aravind-ds.pdf"
                 target="_blank"
-                className="px-6 py-3 rounded-xl border"
+                className="px-6 py-3 rounded-xl border border-zinc-700 bg-zinc-900 hover:bg-blue-600 hover:border-blue-600 hover:scale-105 transition-all duration-300"
               >
                 DS Resume
               </a>
@@ -47,7 +47,7 @@ export default function Hero() {
               <a
                 href={personal.github}
                 target="_blank"
-                className="px-6 py-3 rounded-xl border"
+                className="px-6 py-3 rounded-xl border border-zinc-700 bg-zinc-900 hover:bg-blue-600 hover:border-blue-600 hover:scale-105 transition-all duration-300"
               >
                 GitHub
               </a>
@@ -55,7 +55,7 @@ export default function Hero() {
               <a
                 href={personal.linkedin}
                 target="_blank"
-                className="px-6 py-3 rounded-xl border"
+                className="px-6 py-3 rounded-xl border border-zinc-700 bg-zinc-900 hover:bg-blue-600 hover:border-blue-600 hover:scale-105 transition-all duration-300"
               >
                 LinkedIn
               </a>
@@ -68,14 +68,14 @@ export default function Hero() {
 
             <div className="relative">
 
-              <div className="absolute inset-0 rounded-full bg-zinc-200 blur-3xl" />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-600/30 to-violet-600/30 blur-3xl" />
 
               <Image
                 src="/images/profile/profile.jpeg"
                 alt="Kondeti Aravind"
                 width={420}
                 height={420}
-                className="relative rounded-full object-cover"
+                className="relative rounded-full object-cover border border-zinc-800"
               />
 
             </div>

@@ -1,27 +1,34 @@
 export default function Research() {
-  return (
-    <section id="research" className="py-32">
-      <div className="max-w-5xl mx-auto px-6">
+  const domains = [
+    "Computer Vision",
+    "Deep Learning",
+    "NLP",
+    "Multimodal AI",
+    "Data Engineering",
+    "Generative AI",
+    "Machine Learning",
+    "Data Analytics",
+  ];
 
-        <h2 className="text-4xl font-bold mb-10">
+  return (
+    <section
+      id="research"
+      className="py-24"
+    >
+      <div className="max-w-6xl mx-auto px-6">
+
+        <h2 className="text-4xl font-bold mb-12">
           Research Interests
         </h2>
 
         <div className="flex flex-wrap gap-4">
 
-          {[
-            "Computer Vision",
-            "Deep Learning",
-            "Multimodal Learning",
-            "NLP",
-            "Data Engineering",
-            "Explainable AI",
-          ].map((skill) => (
+          {domains.map((domain) => (
             <div
-              key={skill}
-              className="px-4 py-2 border rounded-xl"
+              key={domain}
+              className="px-6 py-3 rounded-full border border-emerald-700/40 bg-gradient-to-r from-emerald-950/60 to-teal-950/40 text-emerald-300 hover:scale-105 transition-all duration-300"
             >
-              {skill}
+              {domain}
             </div>
           ))}
 
