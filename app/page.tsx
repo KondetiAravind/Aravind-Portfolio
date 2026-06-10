@@ -11,21 +11,33 @@ import Contact from "@/src/components/sections/Contact";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-black text-white">
 
       <Navbar />
 
       <Hero />
 
+      <div className="border-t border-white/5" />
+
       <Stats />
+
+      <div className="border-t border-white/5" />
 
       <Skills />
 
+      <div className="border-t border-white/5" />
+
       <Projects />
+
+      <div className="border-t border-white/5" />
 
       <Experience />
 
+      <div className="border-t border-white/5" />
+
       <Research />
+
+      <div className="border-t border-white/5" />
 
       <Contact />
 

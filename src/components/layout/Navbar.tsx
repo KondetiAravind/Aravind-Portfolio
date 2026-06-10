@@ -6,31 +6,43 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
 
-          <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-violet-600 flex items-center justify-center font-bold text-white">
+          <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 via-violet-500 to-purple-600 flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/30">
             KA
           </div>
 
-          <span className="font-semibold text-white hidden sm:block">
+          <span className="font-semibold text-white hidden sm:block text-lg">
             Kondeti Aravind
           </span>
 
         </div>
 
-        <nav className="hidden md:flex gap-8 text-sm text-zinc-300">
+        <nav className="hidden md:flex gap-8 text-sm font-medium">
 
-          <a href="#projects" className="hover:text-blue-400 transition-colors">
+          <a
+            href="#projects"
+            className="text-zinc-400 hover:text-blue-400 transition-all duration-300"
+          >
             Projects
           </a>
 
-          <a href="#experience" className="hover:text-orange-400 transition-colors">
+          <a
+            href="#experience"
+            className="text-zinc-400 hover:text-orange-400 transition-all duration-300"
+          >
             Experience
           </a>
 
-          <a href="#research" className="hover:text-emerald-400 transition-colors">
+          <a
+            href="#research"
+            className="text-zinc-400 hover:text-emerald-400 transition-all duration-300"
+          >
             Research
           </a>
 
-          <a href="#contact" className="hover:text-violet-400 transition-colors">
+          <a
+            href="#contact"
+            className="text-zinc-400 hover:text-violet-400 transition-all duration-300"
+          >
             Contact
           </a>
 
